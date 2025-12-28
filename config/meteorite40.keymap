@@ -95,11 +95,10 @@
             >;
 
             sensor-bindings =
-                <&mouse_scroll SCRL_DOWN SCRL_UP>, //ロータリーエンコーダー左：反時計回り/スクロールUp, 時計回り/スクロールDown
-                <&mouse_scroll SCRL_DOWN SCRL_UP>; //ロータリーエンコーダー右：反時計回り/スクロールUp, 時計回り/スクロールDown
+                <&mouse_scroll SCRL_UP SCRL_DOWN>, //ロータリーエンコーダー左：反時計回り/スクロールUp, 時計回り/スクロールDown
+                <&mouse_scroll SCRL_UP SCRL_DOWN>; //ロータリーエンコーダー右：反時計回り/スクロールUp, 時計回り/スクロールDown
                 //<&inc_dec_kp LC(MINUS) LC(EQUAL)>, // RE0: ctrl + - / +,,,
                 //<&inc_dec_kp C_VOL_DN C_VOL_UP>; // RE1: volume down/up
- 
         };
 
         layer_1 {
